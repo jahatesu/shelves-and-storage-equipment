@@ -224,7 +224,7 @@ body html{
 
 .section {
     padding-block: 5rem 1rem;
-    padding: 5rem;
+    padding: 7rem;
 }
 
 .section_title {
@@ -1496,8 +1496,8 @@ textarea.input {
 
 /* footer */
 .footer {
-  background-color: var(--white-color);
-  /* color: var(--text-color-light); */
+  /* background-color: var(--white-color);
+  color: var(--text-color-light); */
   padding-block: 2.5rem 2rem;
 }
 
