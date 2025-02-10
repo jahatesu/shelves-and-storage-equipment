@@ -400,8 +400,7 @@ header.scrolled {
 @media (max-width: 768px) {
     .logo img {
         max-width: 240px; /* Smaller logo for mobile */
-        padding-bottom: 1.2rem;
-        padding-top: 1.2rem; 
+        padding-b 
     }
 }
 
