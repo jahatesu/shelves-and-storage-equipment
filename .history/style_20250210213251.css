@@ -270,7 +270,7 @@ body html{
   text-shadow:
     0.5px 0.5px 0px #fff, /* Bottom-right shadow */
     -0.5px 0.5px 0px #fff, /* Bottom-left shadow */
-    0.5px -0.5px 0px #ffffff, /* Top-right shadow */
+    0.5px -0.5px 0px #fff, /* Top-right shadow */
     -0.5px -0.5px 0px #fff; /* Top-left shadow */
 }
 
