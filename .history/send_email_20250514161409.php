@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body = "Username: $username\nEmail: $email\nPhone: $phone\n\nMessage:\n$message";
 
     // Additional headers to prevent spam filtering
-    $headers = "From: $username <$email>\r\n";
+    $headers = "From: Shelves and Storage <$to>\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<script>alert('Message sent successfully!'); window.location.href='index.html';</script>";
     } else {
         // Optional: Log errors (Only for debugging, remove in production)
-        error_log("Mail sending failed for: $email");
+        error_log("Mail sending failed for: $email");git push origin main
 
         echo "<script>alert('Error sending message. Please try again later.'); window.history.back();</script>";
     }
