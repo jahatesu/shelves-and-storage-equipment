@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email setup
-    $to = "jannajustiniano1@gmail.com";
+    $to = "shelvesandstorage.ph@gmail.com";
     $subject = "New Contact Form Submission";
     $body = "Username: $username\nEmail: $email\nPhone: $phone\n\nMessage:\n$message";
 
