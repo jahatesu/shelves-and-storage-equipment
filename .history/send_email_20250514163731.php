@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Additional headers to prevent spam filtering
     $fromEmail = "noreply@shelvesandstorage.ph";
-    $headers = "From: Shelves and Storage <$fromEmail>\r\n";
+    $headers = "From: $username <$email>\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
